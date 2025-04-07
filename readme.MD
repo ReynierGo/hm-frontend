@@ -19,6 +19,7 @@ Si deseas utilizar Docker, asegúrate de tener [Docker](https://www.docker.com/)
 
    ```bash
    git clone https://github.com/ReynierGo/hm-frontend.git
+   cd hm-frontend
 
 2. Para ejecutar el contenedor docker:
 
