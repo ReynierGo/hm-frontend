@@ -21,7 +21,7 @@ const Home = () => {
   useEffect(() => {
     const fetchPokemons = async () => {
       try {
-        const response = await axios.get('http://152.53.53.245:8000/pokemon'); // Cambiar por tu URL de FastAPI
+        const response = await axios.get('http://152.53.88.66:8000/pokemon'); // Cambiar por tu URL de FastAPI
         setPokemons(response.data);
       } catch (error) {
         console.error('Error fetching Pokémon:', error);
